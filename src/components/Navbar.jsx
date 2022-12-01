@@ -23,7 +23,7 @@ const Navbar = () => {
         style={{ display: "flex", alignItems: "center" }}>
         <img src={logo} 
           alt="logo" height={45}  />
-          <Typography variant='body1' fontWeight="bold"  sx={{display:{xs: "none", md:"fixed"},color:"#fff", ml:"5px"}} >GidadoTube</Typography>
+          <Typography variant='body1' fontWeight="bold"  sx={{display:{xs: "none", sm:"fixed"},color:"#fff", ml:"5px"}} >GidadoTube</Typography>
       </Link>
       <SearchBar />
     </Stack>
