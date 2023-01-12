@@ -11,7 +11,7 @@ const ChannelDetails = () => {
   const [videos, setVideos] = useState([])
 
   const { id } = useParams();
-console.log(videos)
+
   
 
   useEffect(() => {
